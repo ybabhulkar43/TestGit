@@ -1,1 +1,33 @@
-this is my first Text File..
+/*
+
+SATYAM JAGTAP
+TE IT B 37020
+SP ASSIGNMENT -6
+PROBLEM STATEMENT-
+			Write a program to implement calculator using LEX and YACC.
+*/
+
+
+satyam@satyam-System-Product-Name:~$ cd D*
+satyam@satyam-System-Product-Name:~/Desktop$ cd Calculator
+satyam@satyam-System-Product-Name:~/Desktop/Calculator$ flex lexx.l
+satyam@satyam-System-Product-Name:~/Desktop/Calculator$ yacc -d calc.y
+satyam@satyam-System-Product-Name:~/Desktop/Calculator$ gcc y.tab.c lex.yy.c
+satyam@satyam-System-Product-Name:~/Desktop/Calculator$ ./a.out
+
+6+5
+11
+
+6/3
+2
+
+6-5
+1
+
+5/4
+1
+
+5*5
+25
+
+
